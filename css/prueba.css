@@ -119,5 +119,26 @@
             cursor: pointer;
             transition:.3s ease;
         }
+        /* Tabla */
+       table {
+           width :100%; 
+           border-collapse :collapse; 
+           margin-top :20px; 
+       }
+
+       th, td {
+           border :1px solid #444; 
+           padding :10px; 
+           text-align :left; 
+       }
+
+       th {
+           background-color :#333; 
+           color :#f39c12; 
+       }
+
+       tr:nth-child(even) {
+           background-color :#444; 
+       }
 
     </style>
