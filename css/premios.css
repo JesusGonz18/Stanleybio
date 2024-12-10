@@ -20,7 +20,7 @@
             margin: 0;
         }
         .premiososcar{
-        background: url(../imagenes/premiooscar.JPG) ;
+        background: url(../imagenes/premiooscar.jpg) ;
         color: #fff;
         width: 120px;
         max-width: 120;
@@ -41,7 +41,7 @@
             color: #0459db;
         }
         .premiosbafta{
-        background: url(../imagenes/bafta.JPG);
+        background: url(../imagenes/bafta.jpg);
         color: #fff;
         width: 140px;
         max-width: 140;
@@ -55,7 +55,7 @@
         box-shadow: 5px 5px 5px #070706;
         }
          .premiosdga{
-        background: url(../imagenes/dga.JPEG);
+        background: url(../imagenes/dga.jpeg);
         color: #fff;
         width: 120px;
         max-width: 120;
@@ -69,7 +69,7 @@
         box-shadow: 5px 5px 5px #070706;
         }
          .premiosglobosdeoro{
-        background: url(../imagenes/globosdeoro.JPEG);
+        background: url(../imagenes/globosdeoro.jpeg);
         color: #fff;
         width: 120px;
         max-width: 120;
@@ -115,7 +115,7 @@
                 text-decoration: none;
                 width: 35px;
                 height: 35px;
-                background: url(../imagenes/flecha1.PNG);
+                background: url(../imagenes/flecha1.png);
                 float: left;
                 margin-right: 0px;
             }
