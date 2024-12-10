@@ -69,22 +69,7 @@
             border-radius: 100px;
             margin: 50px;
             box-shadow: 5x 5x 5x #ccc;
-        }
-        .example{
-        clear: both;
-        width: 100%;
-        height: 500px;
-        background: url(../imagenes/Stanley.jpeg)fixed no-repeat;
-        background-size: cover;
-        background-position: left top;
-        }
-        .parallax{
-        clear: both;
-        width: 95%;
-        height: 250px;
-        background: url(../imagenes/fondo.jpeg)fixed no-repeat;
-        background-size: cover;
-        background-position: center top;
+       
         }
         footer {
             text-align: center;
