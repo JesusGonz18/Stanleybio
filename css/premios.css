@@ -1,0 +1,122 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f39c12;
+            color: ;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        h1 {
+            color: #f39c12;
+            margin: 0;
+        }
+        .premiososcar{
+        background: url(../imagenes/premiooscar.JPG) ;
+        color: #fff;
+        width: 120px;
+        max-width: 120;
+        height: 80px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        float: left;
+        margin-left: 40px;
+        padding: 70px;
+        box-shadow: 5px 5px 5px #070706;
+        }
+        a{
+            text-decoration: none;
+
+        }
+        a:hover {
+            color: #0459db;
+        }
+        .premiosbafta{
+        background: url(../imagenes/bafta.JPG);
+        color: #fff;
+        width: 140px;
+        max-width: 140;
+        height: 80px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        float: left;
+        margin-left: 40px;
+        padding: 70px;
+        box-shadow: 5px 5px 5px #070706;
+        }
+         .premiosdga{
+        background: url(../imagenes/dga.JPEG);
+        color: #fff;
+        width: 120px;
+        max-width: 120;
+        height: 80px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        float: left;
+        margin-left: 40px;
+        padding: 70px;
+        box-shadow: 5px 5px 5px #070706;
+        }
+         .premiosglobosdeoro{
+        background: url(../imagenes/globosdeoro.JPEG);
+        color: #fff;
+        width: 120px;
+        max-width: 120;
+        height: 80px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        float: left;
+        margin-left: 40px;
+        padding: 70px;
+        box-shadow: 5px 5px 5px #070706;
+        }
+         .premioswga{
+        background: url(../imagenes/wga.JPEG);
+        color: #fff;
+        width: 80px;
+        max-width: 80;
+        height: 80px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        float: left;
+        margin-left: 40px;
+        padding: 70px;
+        box-shadow: 5px 5px 5px #070706;
+        }
+       footer {
+            text-align: center;
+            padding: 20px;
+            background-color:#333 ;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 98%;
+        }
+        .volverinicio{
+            text-decoration: none;
+            width: 20px;
+            float: left;
+            
+        }
+            .volver{
+                text-decoration: none;
+                width: 35px;
+                height: 35px;
+                background: url(../imagenes/flecha1.PNG);
+                float: left;
+                margin-right: 0px;
+            }
+
