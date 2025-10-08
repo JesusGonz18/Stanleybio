@@ -1,0 +1,166 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body {
+  font-family: Arial, sans-serif;
+  color:#333;
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../imagenes/conocenos.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  flex: 1;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+header .container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    width: 32px;      
+    height: 32px;
+    object-fit: contain;
+}
+.logo h1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+header nav {
+    display: flex;
+    gap: 50px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 12px;          
+    border-radius: 8px;         
+    transition: background 0.3s;
+    display: inline-block;
+}
+header nav a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+header .boton {
+    padding: 8px 16px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+header .boton:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+.tarjetas {
+  max-width: 900px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tarjeta {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 40%;
+  text-align: center;
+}
+.tarjeta:hover { transform: translateY(-5px); }
+
+.tarjeta-header {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #c94f7c;
+  color: #fff;
+}
+
+.tarjeta-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 20px;
+  text-align: justify;
+  transition: max-height 0.5s ease, padding 0.3s ease;
+}
+.tarjeta-content img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #caa2c3;
+  margin-top: 10px; 
+}
+.tarjeta.activa .tarjeta-content {
+  max-height: 700px;
+  padding: 20px;
+}
+.tarjeta.izquierda {
+  align-self: flex-start;   
+}
+.tarjeta.derecha {
+  align-self: flex-end;
+}
+
+main{
+    flex: 1;
+    padding-top: 140px;
+}
+footer {
+  width:100%;
+  background:#caa2c3;
+  color:#fff;
+  padding:30px 40px;
+  margin-top: auto;
+  position: relative;
+}
+.footer-container {
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  gap:20px;
+}
+.footer-container .col a {
+  color:#fff;
+  text-decoration:none;
+}
+.footer-container .col a:hover { text-decoration:underline;
+}
