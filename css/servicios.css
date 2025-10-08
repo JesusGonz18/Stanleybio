@@ -146,7 +146,7 @@ footer {
 .servicio.tragus::before { background-image: url('../imagenes/tragus.jpg'); }
 .servicio.daith::before { background-image: url('../imagenes/daith.webp'); }
 .servicio.nariz::before { background-image: url('../imagenes/nostril.webp'); }
-.servicio.septum::before { background-image: url('../imagenes/septum.jpg'); }
+.servicio.septum::before { background-image: url('../imagenes/Septum.jpg'); }
 .servicio.ceja::before { background-image: url('../imagenes/ceja.jpg'); }
 .servicio.labio::before { background-image: url('../imagenes/labio.jpeg'); }
 .servicio.medusa::before { background-image: url('../imagenes/medusa.jpg'); }
@@ -157,6 +157,7 @@ footer {
 .servicio.personalizados::before { background-image: url('../imagenes/diseños.webp'); }
 .servicio.fotografia::before { background-image: url('../imagenes/fotografia.jpeg'); }
 .servicio.talleres::before { background-image: url('../imagenes/curso.JPG'); }
+
 
 
 
