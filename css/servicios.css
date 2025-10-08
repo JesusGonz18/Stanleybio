@@ -151,12 +151,13 @@ footer {
 .servicio.labio::before { background-image: url('../imagenes/labio.jpeg'); }
 .servicio.medusa::before { background-image: url('../imagenes/medusa.jpg'); }
 .servicio.lengua::before { background-image: url('../imagenes/lengua.jpg'); }
-.servicio.joyeria::before { background-image: url('../imagenes/p11.jpg'); }
+.servicio.joyeria::before { background-image: url('../imagenes/p11.JPG'); }
 .servicio.limpieza::before { background-image: url('../imagenes/limpieza.jpeg'); }
 .servicio.aftercare::before { background-image: url('../imagenes/aftercare.webp'); }
 .servicio.personalizados::before { background-image: url('../imagenes/diseños.webp'); }
 .servicio.fotografia::before { background-image: url('../imagenes/fotografia.jpeg'); }
 .servicio.talleres::before { background-image: url('../imagenes/curso.JPG'); }
+
 
 
 
