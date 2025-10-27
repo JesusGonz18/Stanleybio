@@ -23,17 +23,30 @@ header {
   z-index: 10;
 }
 header .container {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
 }
-.logo { display: flex; align-items: center; gap: 10px; }
+.logo {
+    position: absolute;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .logo img { width: 32px; height: 32px; }
 .logo h1 { font-size: 18px; color: #fff; }
 
-header nav { display: flex; gap: 50px; }
+header nav {
+  position: relative;
+  left: 50%;
+  transform: translateX(-80%);
+  display: flex;
+  gap: 50px;; 
+}
 header nav a {
   color: #fff;
   text-decoration: none;
@@ -41,8 +54,9 @@ header nav a {
   padding: 6px 12px;
   border-radius: 8px;
   transition: 0.3s;
+  display: inline-block;
 }
-header nav a:hover, header nav a.activo { background: rgba(255,255,255,0.2); }
+header nav a:hover{ background: rgba(255,255,255,0.2); }
 
 header .boton {
   padding: 8px 16px;
@@ -95,6 +109,7 @@ p{
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-height: 200px;
+  box-shadow: 0 0 15px #ff4081aa;
 }
 .servicio::before {
   content: "";
@@ -146,17 +161,18 @@ footer {
 .servicio.tragus::before { background-image: url('../imagenes/tragus.jpg'); }
 .servicio.daith::before { background-image: url('../imagenes/daith.webp'); }
 .servicio.nariz::before { background-image: url('../imagenes/nostril.webp'); }
-.servicio.septum::before { background-image: url('../imagenes/Septum.jpg'); }
+.servicio.septum::before { background-image: url('../imagenes/septum.jpg'); }
 .servicio.ceja::before { background-image: url('../imagenes/ceja.jpg'); }
 .servicio.labio::before { background-image: url('../imagenes/labio.jpeg'); }
 .servicio.medusa::before { background-image: url('../imagenes/medusa.jpg'); }
 .servicio.lengua::before { background-image: url('../imagenes/lengua.jpg'); }
-.servicio.joyeria::before { background-image: url('../imagenes/p11.JPG'); }
+.servicio.joyeria::before { background-image: url('../imagenes/p11.jpg'); }
 .servicio.limpieza::before { background-image: url('../imagenes/limpieza.jpeg'); }
 .servicio.aftercare::before { background-image: url('../imagenes/aftercare.webp'); }
 .servicio.personalizados::before { background-image: url('../imagenes/diseños.webp'); }
 .servicio.fotografia::before { background-image: url('../imagenes/fotografia.jpeg'); }
 .servicio.talleres::before { background-image: url('../imagenes/curso.JPG'); }
+
 
 
 
