@@ -55,7 +55,7 @@ header nav {
   left: 50%;
   display: flex;
   gap: 50px;;
-  transform: translateX(-80%);
+  transform: translateX(-100%);
 }
 header nav a {
     color: #fff;
@@ -172,4 +172,5 @@ footer {
 }
 .footer-container .col a:hover { text-decoration:underline;
 }
+
 
