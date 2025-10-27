@@ -38,7 +38,7 @@ header .container {
     display: flex;
     align-items: center;
     gap: 10px;
-    transform: translateX(-70%)
+    transform: translateX(-80%)
 }
 .logo img {
     width: 32px;      
@@ -172,5 +172,6 @@ footer {
 }
 .footer-container .col a:hover { text-decoration:underline;
 }
+
 
 
