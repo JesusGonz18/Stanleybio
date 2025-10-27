@@ -9,11 +9,10 @@ body {
 }
 header {
     position: absolute;
+    height: 100px;
     top: 0;
     width: 100%;
     padding: 20px 40px;
-    display: flex;
-    justify-content: center;
     z-index: 10;
 }
 header .container {
@@ -21,9 +20,12 @@ header .container {
     max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative
 }
 .logo {
+    position: absolute;
+    left: 40px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -31,17 +33,19 @@ header .container {
 .logo img {
     width: 32px;      
     height: 32px;
-    object-fit: contain;
 }
+
 .logo h1 {
     font-weight: bold;
     font-size: 18px;
     color: #fff;
-    margin: 0;
 }
 header nav {
-    display: flex;
-    gap: 50px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-80%);
+  display: flex;
+  gap: 50px;;
 }
 header nav a {
     color: #fff;
@@ -133,4 +137,5 @@ footer {
 }
 .footer-container .col a:hover {
     text-decoration:underline;
+}
 }
