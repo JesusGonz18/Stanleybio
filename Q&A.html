@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preguntas Frecuentes | Studio Piercings</title>
+  <link rel="stylesheet" href="css/q&a.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="logo">
+      <a href="paginaweb.html"><img src="imagenes/logopagina.jpg" alt="Logo 98 Piercing Studio"></a>
+      <h1>98 Piercing Studio</h1>
+    </div>
+    <nav>
+        <a href="Conocenos.html">Conócenos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="Q&A.html">Q&A</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    </div>
+</header>
+
+  <section class="seccion-preguntas">
+    <div class="carta">
+      <div class="pregunta">
+        <h3>¿Duele hacerse un piercing?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="respuestas">
+        <p>La molestia depende del área, pero es rápida y soportable. Nuestro personal utiliza técnicas seguras y materiales esterilizados para minimizar la incomodidad.</p>
+      </div>
+    </div>
+
+    <div class="carta">
+      <div class="pregunta">
+        <h3>¿Qué materiales usan?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="respuestas">
+        <p>Solo utilizamos joyería de titanio, acero quirúrgico, oro o bioplast, todos hipoalergénicos y aprobados para uso corporal.</p>
+      </div>
+    </div>
+
+    <div class="carta">
+      <div class="pregunta">
+        <h3>¿Cuánto tarda en sanar un piercing?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="respuestas">
+        <p>Depende del tipo: el lóbulo puede sanar en 6–8 semanas, mientras que el cartílago o nariz puede tardar de 3 a 6 meses.</p>
+      </div>
+    </div>
+
+    <div class="carta">
+      <div class="pregunta">
+        <h3>¿Puedo cambiar la joya recién hecho?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="respuestas">
+        <p>No se recomienda hacerlo antes del tiempo de cicatrización completo. Podemos orientarte cuando sea seguro.</p>
+      </div>
+    </div>
+
+    <div class="carta">
+      <div class="pregunta">
+        <h3>¿Qué cuidados debo tener después?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="respuestas">
+        <p>Evita tocar la zona con las manos sucias, no retires la joya y limpia con solución salina dos veces al día.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+        <div class="col">
+        <h3>98 Piercing Studio</h3>
+        <p>Redes sociales</p>
+        <a href="https://www.instagram.com/_.98piercingstudio/?igsh=bTVmaXg2cjN5Znh2#" target="_blank"><img src="imagenes/instagram.png" alt="Instagram" style="width:30px; height:30px;"></a>
+        
+        <a href="https://www.facebook.com/Joyeria.98x?rdid=uSzpo7II0YUY1osw&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F173zSt9CsL%2F#" target="_blank"><img src="imagenes/facebook.png" alt="Facebook" style="width:30px; height:30px;"></a>
+        </div>
+        <div class="col">
+        <h4>Contáctanos</h4>
+        <p>Email: 98PiercingStudio@gmail.com</p>
+        <p>Tel: 322 200 4654</p>
+        <p>Dirección: Plaza Dorada, Avenida México #2<br>Valle Dorado, Nayarit.</p>
+        </div>
+        <div class="col">
+        <h4>Menú</h4>
+        <a href="Conocenos.html">Conócenos</a><br>
+        <a href="galeria.html">Galería</a><br>
+        <a href="servicios.html ">Servicios</a><br>
+        <a href="Q&A.html">Q&A</a><br>
+        <a href="contacto.html">Contacto</a><br>
+        </div>
+    </div>
+</footer>
+
+  <script>
+    const faqs = document.querySelectorAll('.carta');
+
+faqs.forEach(card => {
+  card.addEventListener('click', () => {
+    faqs.forEach(item => {
+      if (item !== card) item.classList.remove('active');
+    });
+
+    
+    card.classList.toggle('active');
+  });
+});
+  </script>
+</body>
+</html>
